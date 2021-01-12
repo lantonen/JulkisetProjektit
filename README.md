@@ -13,13 +13,13 @@ heikkoa kommentointia, sekä tehty välillä hieman outoja ratkaisuja.
 
 C++ projektit:
 
-ShoppingProjekti
-UniversityProjekti
-Tetris
-NysseProjekti (isoin ja uusin)
+    ShoppingProjekti
+    UniversityProjekti
+    Tetris
+    NysseProjekti (isoin ja uusin)
 
 Python projektit:
 
-PythonBiometrics
-PythonMölkky
-PythonKulunvalvonta
+    PythonBiometrics
+    PythonMölkky
+    PythonKulunvalvonta
