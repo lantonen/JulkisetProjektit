@@ -8,7 +8,9 @@ hieman pohjakoodia, mutta asia yleensä kerrottu tehtävän annossa tai
 omassa kommentoinnissa.
 
 C++ projektit ovat tuoreempia ja niistä huomaa, että kehitystä on 
-tapahtunut. Python projektit ovat melko pieniä ja niissä on melko 
+tapahtunut. C++ projektit on kaikki tehty git versionhallinnan avullaa,
+mutta koulun tunnuksilla.
+Python projektit ovat melko pieniä ja niissä on melko 
 heikkoa kommentointia, sekä tehty välillä hieman outoja ratkaisuja. 
 Kaikki ohjelmat kuitenkin toimivat täysin oikein ja niitä voi toki 
 testailla!
