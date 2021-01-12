@@ -9,7 +9,9 @@ omassa kommentoinnissa.
 
 C++ projektit ovat tuoreempia ja niistä huomaa, että kehitystä on 
 tapahtunut. Python projektit ovat melko pieniä ja niissä on melko 
-heikkoa kommentointia, sekä tehty välillä hieman outoja ratkaisuja.
+heikkoa kommentointia, sekä tehty välillä hieman outoja ratkaisuja. 
+Kaikki ohjelmat kuitenkin toimivat täysin oikein ja niitä voi toki 
+testailla!
 
 C++ projektit:
 
