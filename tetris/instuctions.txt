@@ -1,0 +1,45 @@
+
+* ----------
+* TIE-02201/TIE-02207 SPRING 2020
+* ----------
+*
+* Tetris projekti
+* Name: Lari Lantonen
+* Student number: 283531
+* UserID: lantonen
+* E-Mail: lari.lantonen@tuni.fi
+
+Minimivaatimukset pitäisi olla kunnossa. Tetriksessä on myös seuraavat ominaisuudet:
+-Peliin on toteutettu kaikki seitsemän erilaista tetrominoa. (5 p.)
+-Jo pysähtynyttä tetrominoa pystyy liikuttamaan sivusuunnassa, jos se muuten on mahdollista
+    ja jos seuraava tetromino ei ole vielä ilmestynyt pelialueelle.
+-Täysinäiset vaakarivit poistetaan. (10 p.)
+-Pelin aikana kerrotaan siihen mennessä kulunut aika. (10 p.)
+-Pelissä on erilaisia vaikeustasoja. Esimerkiksi tetrominojen putoamisnopeus voi vaihdella. (5 p.)
+-Pelin päätyttyä (tai muutenkin) peliasetelman voi palauttaa alkutilanteeseen,
+    jolloin käyttäjä voi aloittaa uuden pelin käynnistämättä ohjelmaa uudelleen. (5 p.)
+-Putoavan tetrominon pystyy pudottamaan kerralla niin alas kuin mahdollista
+    (esimerkiksi painonapilla tai näppäinkomennolla). (5 p.)
+-Putoavaa tetrominoa pystyy kääntämään. Tämän voi toteuttaa 90 asteen kiertona,
+    270 eli -90 asteen kiertona tai peilauksena. (Näistä peilaus saattaa olla helpoin,
+    ainakin jos sen tekee sellaisen suoran suhteen, jonka kulmakerroin on 1. Huomaa,
+    että tällainen suora on laskeva, kun käytössä on koordinaatisto, jossa y kasvaa alaspäin.) (15 p.)
+-Pelissä on jonkinlainen pistelasku, esimerkiksi poistettujen rivien määrä tai pudonneiden tetrominon
+määrä tai täynnä olevien ruutujen määrä. Pistetilanne myös ilmoitetaan käyttäjälle. (5 p.)
+
+Peliä pelataan LEFT, RIGHT, ROTATE ja DOWN painonapeilla. 
+Jos muodon liikettä ei estä mikään, LEFT nappia painamalla kappale siiryy vasemmalle ja RIGHT napilla oikealle.
+ROTATE napilla kappaletta voi pyörittää myötäpäivään, jos sen liikettä ei estä reunat tai muut kappaleet. Minulla oli hieman
+vaikeuksia kääntelyn kanssa, joten se ei ole todellakaan tehty optimaalisesti, mutta se toimii jotenkuten.
+DOWN napilla kappale menee niin alas kuin voi(kuten lisävaatimus sanoi)
+UI:n yläreunassa on info taulu, jossa on yleisesti isolla tetris, mutta kun peli päättyy se ilmoittaa asiasta
+ja näyttää pelaajan saamat pisteet. Pisteitä tulee jokaisesta pysähtyneestä kappaleesta sekä + 20 pistettä kokonaisista riveistä.
+Kokonaiset rivit poistetaan heti kun niitä syntyy. Ehdottomasti tämä ja kappaleiden kiertely aiheuttivat päänvaivaa ja
+olen pahollani koodin vaikeasta toteutuksesta :.)
+
+Pelin käynnistäminen:
+Ruudun oikeassa yläkulassa on START painonappi, vaikeustason valitsin, RESET nappula ja EXIT nappula.
+Peli lähtee käyntiin vasta START näppäintä painettaessa, jonka jälkeen se muuttuu DISABLED muotaan eli sitä ei voi painaa.
+Pelin saa aloitettua alusta RESET napilla, joka laittaa pelin alkuun ja pysäyttää tilanteen = painettava START nappia, jotta
+peli lähtee päälle. Näppäimet on DISABLED kun niitä ei ole tarkoitus painaa. Uskoisin, että minkään painonapin painallus ei
+aiheuta pelin kaatumista.
